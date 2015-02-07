@@ -1,8 +1,9 @@
 <?php
 
 add_shortcode( 'acacha_twitter_follow', 'acacha_twitter_follow' );
-function acacha_twitter_follow( $atts, $content = null ) {
-
+function acacha_twitter_follow() {
+	return "<a href=\"https://twitter.com/acacha1\" class=\"twitter-follow-button\" data-show-count=\"false\" data-size=\"large\">Follow @acacha1</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
 }
 
 add_shortcode( 'hola_mon', 'hola_mon' );
