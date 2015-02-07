@@ -18,6 +18,15 @@ function acacha_facebook_follow() {
 <span class=\"fb-follow\" data-href=\"https://www.facebook.com/sergi.tur\" data-colorscheme=\"light\" data-layout=\"button\" data-show-faces=\"false\"></span>";
 }
 
+add_shortcode('acacha_googleplus_follow', 'acacha_googleplus_follow' );
+function acacha_googleplus_follow() {
+	return "<!-- Place this tag in your head or just before your close body tag. --><script src=\"https://apis.google.com/js/platform.js\" async defer>
+    {lang: 'ca'}
+    </script>
+    <!-- Place this tag where you want the widget to render. -->
+    <div class=\"g-follow\" data-annotation=\"none\" data-height=\"20\" data-href=\"//plus.google.com/u/0/114574773856585741955\" data-rel=\"author\"></div>";
+}
+
 add_shortcode( 'hola_mon', 'hola_mon' );
 function hola_mon() {
 	 return 'Hola mon!';
