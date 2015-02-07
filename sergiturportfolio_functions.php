@@ -6,13 +6,9 @@ function acacha_twitter_follow() {
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
 }
 
-add_shortcode(.social iframe,.social>span {
-vertical-align: middle;
-} 'acacha_facebook_follow', 'acacha_facebook_follow' );
+add_shortcode('acacha_facebook_follow', 'acacha_facebook_follow' );
 function acacha_facebook_follow() {
-	return "<style type=\"text/css\">.social iframe,.social>span {
-vertical-align: middle;
-}</style><span id=\"fb-root\"></span><script>(function(d, s, id) {
+	return "<style type=\"text/css\">.social iframe,.social>span { vertical-align: middle; }</style><span id=\"fb-root\"></span><script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
