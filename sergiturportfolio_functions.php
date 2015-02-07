@@ -15,7 +15,7 @@ function acacha_facebook_follow() {
   js.src = \"//connect.facebook.net/ca_ES/sdk.js#xfbml=1&appId=601405286669971&version=v2.0\";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<span class=\"fb-follow\" data-href=\"https://www.facebook.com/sergi.tur\" data-colorscheme=\"light\" data-layout=\"button\" data-show-faces=\"false\"></span>";
+<span class=\"fb-follow\" style=\"vertical-align:center\" data-href=\"https://www.facebook.com/sergi.tur\" data-colorscheme=\"light\" data-layout=\"button\" data-show-faces=\"false\"></span>";
 
 }
 
