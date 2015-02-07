@@ -8,7 +8,7 @@ function acacha_twitter_follow() {
 
 add_shortcode('acacha_facebook_follow', 'acacha_facebook_follow' );
 function acacha_facebook_follow() {
-	return "<style type=\"text/css\">.social iframe,.social>span { vertical-align: middle; }</style><span id=\"fb-root\"></span><script>(function(d, s, id) {
+	return "<style type=\"text/css\">.wpsr-btn .fb_iframe_widget span { vertical-align: top !important; }</style><span id=\"fb-root\"></span><script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
