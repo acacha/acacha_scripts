@@ -27,6 +27,11 @@ function acacha_googleplus_follow() {
     <div class=\"g-follow\" data-annotation=\"none\" data-height=\"20\" data-href=\"//plus.google.com/u/0/114574773856585741955\" data-rel=\"author\"></div>";
 }
 
+add_shortcode( 'AL', 'AL' );
+function acacha_link() {
+	 return '<a href=\"http://acacha.org/index.php/' . $content . '">' . $content . '</a>';
+}
+
 add_shortcode( 'hola_mon', 'hola_mon' );
 function hola_mon() {
 	 return 'Hola mon!';
