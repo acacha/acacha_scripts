@@ -28,7 +28,7 @@ function acacha_googleplus_follow() {
 }
 
 add_shortcode( 'al', 'acacha_link' );
-function acacha_link() {
+function acacha_link($atts, $content) {
 	 return '<a href="http://acacha.org/index.php/' . $content . '">' . $content . '</a>';
 }
 
