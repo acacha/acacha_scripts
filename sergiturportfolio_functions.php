@@ -69,6 +69,7 @@ function written_by_sergitur() {
             }
 
             .index-headline span {
+                font-family: Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
                 color: #b3b3b1;
                 font-size: 10px;
                 letter-spacing: 1px;
@@ -84,6 +85,7 @@ function written_by_sergitur() {
                 width: 80px;
             }
             .bottom-teaser .isLeft h4 {
+                font-family: Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
                 font-size: 18px;
                 font-weight: 700;
                 line-height: 1.1;
@@ -91,11 +93,27 @@ function written_by_sergitur() {
                 padding: 0 0 0 100px;
             }
             .bottom-teaser .isLeft p {
+                font-family: Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 1.3;
                 margin: 0;
                 padding: 0 0 0 100px;
+            }
+            .bottom-teaser hr {
+                -moz-border-bottom-colors: none;
+                -moz-border-left-colors: none;
+                -moz-border-right-colors: none;
+                -moz-border-top-colors: none;
+                border-color: #ddd;
+                border-image: none;
+                border-right: 0 solid #ddd;
+                border-style: solid;
+                border-width: 1px 0 0;
+                display: block;
+                margin: 16px 0 16px 100px;
+                padding: 0;
+                width: 15%;
             }
           </style>
           <div class="bottom-teaser cf">
