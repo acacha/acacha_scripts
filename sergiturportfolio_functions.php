@@ -39,26 +39,63 @@ function acacha() {
 
 add_shortcode( 'written_by_sergitur', 'written_by_sergitur' );
 function written_by_sergitur() {
-   return '<div class="bottom-teaser cf">
+   return '<style>
+            .cf:after {
+                clear: both;
+                content: "";
+                display: table;
+            }
+            .bottom-teaser {
+                font-family: Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
+                padding: 50px 0;
+            }
+            .bottom-teaser .isLeft {
+                box-sizing: border-box;
+                float: left;
+                width: 47%;
+            }
+            .bottom-teaser .isRight {
+                box-sizing: border-box;
+                float: right;
+                width: 47%;
+            }
+            .bottom-teaser .isLeft .index-headline {
+                padding-bottom: 32px;
+            }
+            .index-headline {
+                border-top: 1px solid #dededc;
+                margin: 0;
+                padding: 16px 0;
+            }
+            .bottom-teaser .isLeft .author-image {
+                background-size: cover;
+                border-radius: 100%;
+                display: block;
+                float: left;
+                height: 80px;
+                text-indent: -9999px;
+                width: 80px;
+            }
+          </style>
+          <div class="bottom-teaser cf">
           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
-              <div style="background-image: url(/assets/images/author.jpg)" class="author-image">Blog Logo</div>
-              <h4>Phil Sturgeon</h4>
-              <p class="bio">Phil has contributed to CodeIgniter, FuelPHP, Laravel and handfuls of other projects, to try and make the PHP community a better place.</p>
+              <div style="background-image: url(http://www.gravatar.com/avatar/046889f49471fd40d105eb76b9d83bf6.png)" class="author-image">Blog Logo</div>
+              <h4>Sergi Tur Badenas</h4>
+              <p class="bio">Sergi has contributed teaching, evangeling and documenting at acacha.org site and other projects, to try and make the Open Source community a better place.</p>
               <hr>
               <p class="published">Published <time datetime="2014-11-30 13:19">30 Nov 2014</time></p>
             </section>
           </div>
           
           <div class="isRight">
-            <h5 class="index-headline featured"><span>More Writing</span></h5>
+            <h5 class="index-headline featured"><span>More About Sergi Tur</span></h5>
             <footer class="site-footer">
-              <h4>Build APIs You Won\'t Hate</h4>
-              <p>Everyone and their dog wants an API, so you should probably learn how to build them.</p>
-              <p><a href="http://apisyouwonthate.com/">Buy it from LeanPub</a> for $26.99</p>
+              <h4>TODO</h4>
+              <p>TODO</p>
+              <p><a href="http://acacha.org">Acacha.org</a></p>
               <hr>
-              <p class="published">Published 01 Feb 2014</p>
             </footer>
           </div>
         </div>';
