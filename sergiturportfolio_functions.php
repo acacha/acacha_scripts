@@ -37,6 +37,11 @@ function acacha() {
 	 return '<a href="http://acacha.org">acacha.org</a>';
 }
 
+add_shortcode( 'written_by_sergitur', 'written_by_sergitur' );
+function written_by_sergitur() {
+   return 'TODO';
+}
+
 add_shortcode( 'hola_mon', 'hola_mon' );
 function hola_mon() {
 	 return 'Hola mon!';
