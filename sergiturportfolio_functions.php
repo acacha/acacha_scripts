@@ -132,10 +132,9 @@ function written_by_sergitur() {
             <h5 class="index-headline featured"><span>More About Sergi Tur</span></h5>
             <footer class="site-footer">
               <h4>Visit acacha.org</h4>
-              <p>Please visit Sergi Tur web pages at</p>
-              <p><a href="http://acacha.org">Acacha.org</a> (Wiki) | <p><a href="http://acacha.org">Acacha.org/blog</a> | 
+              <p>Please visit Sergi Tur web pages at <a href="http://acacha.org">Acacha.org</a> (Wiki) | <a href="http://acacha.org">Acacha.org/blog</a> | 
               <a href="http://acacha.org">Acacha.org/sergitur</a>
-              <p>Feel free to subscribe to blog</p>
+              <p>Feel free to subscribe to blog!</p>
               <hr>
             </footer>
           </div>
