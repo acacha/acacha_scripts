@@ -123,7 +123,7 @@ function written_by_sergitur() {
             <section class="author">
               <div style="background-image: url(http://www.gravatar.com/avatar/046889f49471fd40d105eb76b9d83bf6.png)" class="author-image">Blog Logo</div>
               <h4>Sergi Tur Badenas</h4>
-              <p class="bio"><a href="http://acacha.org">Sergi</a> has contributed teaching, evangelizing and documenting at <a href="http:acacha.org">acacha.org</a> site and other projects, to try and make the Open Source community a better place.</p>
+              <p class="bio"><a href="http://acacha.org/sergitur">Sergi</a> has contributed teaching, evangelizing and documenting at <a href="http://acacha.org">acacha.org</a> site and other projects, to try and make the Open Source community a better place.</p>
               <hr>
             </section>
           </div>
@@ -132,8 +132,7 @@ function written_by_sergitur() {
             <h5 class="index-headline featured"><span>More About Sergi Tur</span></h5>
             <footer class="site-footer">
               <h4>Visit acacha.org</h4>
-              <p>Please visit Sergi Tur web pages at <a href="http://acacha.org">Acacha.org</a> (Wiki) | <a href="http://acacha.org">Acacha.org/blog</a> | 
-              <a href="http://acacha.org">Acacha.org/sergitur</a>
+              <p>Please visit Sergi Tur web pages at <a href="http://acacha.org">Acacha.org</a> (Wiki) | <a href="http://acacha.org/blog">Acacha.org/blog</a> 
               <p>Feel free to subscribe to blog!</p>
               <hr>
             </footer>
