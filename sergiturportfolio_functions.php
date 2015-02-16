@@ -67,6 +67,13 @@ function written_by_sergitur() {
                 margin: 0;
                 padding: 16px 0;
             }
+
+            .index-headline span {
+                color: #b3b3b1;
+                font-size: 10px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
             .bottom-teaser .isLeft .author-image {
                 background-size: cover;
                 border-radius: 100%;
@@ -75,6 +82,20 @@ function written_by_sergitur() {
                 height: 80px;
                 text-indent: -9999px;
                 width: 80px;
+            }
+            .bottom-teaser .isLeft h4 {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 1.1;
+                margin: 0;
+                padding: 0 0 0 100px;
+            }
+            .bottom-teaser .isLeft p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.3;
+                margin: 0;
+                padding: 0 0 0 100px;
             }
           </style>
           <div class="bottom-teaser cf">
