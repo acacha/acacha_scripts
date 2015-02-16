@@ -72,6 +72,7 @@ function written_by_sergitur() {
                 font-family: Open Sans,MundoSans,"Helvetica Neue",Arial,Helvetica,sans-serif;
                 color: #b3b3b1;
                 font-size: 10px;
+                font-weight: bold;
                 letter-spacing: 1px;
                 text-transform: uppercase;
             }
@@ -122,18 +123,20 @@ function written_by_sergitur() {
             <section class="author">
               <div style="background-image: url(http://www.gravatar.com/avatar/046889f49471fd40d105eb76b9d83bf6.png)" class="author-image">Blog Logo</div>
               <h4>Sergi Tur Badenas</h4>
-              <p class="bio">Sergi has contributed teaching, evangelizing and documenting at <a href="http:acacha.org">acacha.org</a> site and other projects, to try and make the Open Source community a better place.</p>
+              <p class="bio"><a href="http://acacha.org">Sergi</a> has contributed teaching, evangelizing and documenting at <a href="http:acacha.org">acacha.org</a> site and other projects, to try and make the Open Source community a better place.</p>
               <hr>
-              <p class="published">Published <time datetime="2014-11-30 13:19">30 Nov 2014</time></p>
             </section>
           </div>
           
           <div class="isRight">
             <h5 class="index-headline featured"><span>More About Sergi Tur</span></h5>
             <footer class="site-footer">
-              <h4>TODO</h4>
-              <p>TODO</p>
-              <p><a href="http://acacha.org">Acacha.org</a></p>
+              <h4>Visit acacha.org</h4>
+              <p>Please visit Sergi Tur web pages at</p>
+              <p><a href="http://acacha.org">Acacha.org</a> (Wiki)</p>
+              <p><a href="http://acacha.org">Acacha.org/blog</a></p>
+              <p><a href="http://acacha.org">Acacha.org/sergitur</a></p>
+              <p>Feel fre to subscribe to blog</p>
               <hr>
             </footer>
           </div>
