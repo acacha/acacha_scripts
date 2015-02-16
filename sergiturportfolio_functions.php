@@ -39,7 +39,29 @@ function acacha() {
 
 add_shortcode( 'written_by_sergitur', 'written_by_sergitur' );
 function written_by_sergitur() {
-   return 'TODO';
+   return '<div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <section class="author">
+              <div style="background-image: url(/assets/images/author.jpg)" class="author-image">Blog Logo</div>
+              <h4>Phil Sturgeon</h4>
+              <p class="bio">Phil has contributed to CodeIgniter, FuelPHP, Laravel and handfuls of other projects, to try and make the PHP community a better place.</p>
+              <hr>
+              <p class="published">Published <time datetime="2014-11-30 13:19">30 Nov 2014</time></p>
+            </section>
+          </div>
+          
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>More Writing</span></h5>
+            <footer class="site-footer">
+              <h4>Build APIs You Won\'t Hate</h4>
+              <p>Everyone and their dog wants an API, so you should probably learn how to build them.</p>
+              <p><a href="http://apisyouwonthate.com/">Buy it from LeanPub</a> for $26.99</p>
+              <hr>
+              <p class="published">Published 01 Feb 2014</p>
+            </footer>
+          </div>
+        </div>';
 }
 
 add_shortcode( 'hola_mon', 'hola_mon' );
