@@ -122,7 +122,7 @@ function written_by_sergitur() {
             <section class="author">
               <div style="background-image: url(http://www.gravatar.com/avatar/046889f49471fd40d105eb76b9d83bf6.png)" class="author-image">Blog Logo</div>
               <h4>Sergi Tur Badenas</h4>
-              <p class="bio">Sergi has contributed teaching, evangeling and documenting at acacha.org site and other projects, to try and make the Open Source community a better place.</p>
+              <p class="bio">Sergi has contributed teaching, evangelizing and documenting at <a href="http:acacha.org">acacha.org</a> site and other projects, to try and make the Open Source community a better place.</p>
               <hr>
               <p class="published">Published <time datetime="2014-11-30 13:19">30 Nov 2014</time></p>
             </section>
